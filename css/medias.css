@@ -1,0 +1,97 @@
+/*It loads this style if the viewport minimun size is as defined.*/
+@media (min-width: 300px) {
+    body {
+      font-size: 11px;
+    }
+    .site-title{
+      font-size: 3em;
+    }
+    .contacts .grid-contacts{
+      gap: 2em;
+    }
+    .grid-about{
+      grid-template-rows: none;
+      grid-template-columns: none;
+      gap: 1em;
+      width: 85vw;
+    }
+    .badge{
+      padding: 5px 8px;
+      margin-bottom: 5px;
+      margin-right: 5px;
+    }
+    .particles{
+      height: 100vh;
+    }
+}
+  
+@media (min-width: 400px) {
+    .badge{
+        padding: 8px 8px;
+    }
+}
+
+@media (min-width: 500px) {
+    body {
+        font-size: 12px;
+    }
+    .site-title{
+        font-size: 3.5em;
+    }
+}
+
+/* breakpoint */
+@media (min-width: 600px) {
+    body {
+        font-size: 13.5px;
+    }
+    .footer{
+        font-size: 15px;
+    }
+    .projects .grid {
+        grid-template-columns: 240px 240px;
+    }
+    .contacts .grid-contacts{
+        gap: 4em;
+    }
+    .particles{ height: 50vh; }
+}
+  
+@media (min-width: 700px) {
+    body {
+        font-size: 14.5px;
+    }
+}
+@media (min-width: 800px) {
+    body {
+        font-size: 15px;
+    }
+}
+  
+  /* breakpoint */
+  @media (min-width: 1000px) {
+    body {
+      font-size: 20px;
+    }
+    .grid-about{
+      gap: 3em;
+      grid-template-columns: 60vw 30vw;
+    }
+    .data-cont{
+      width: 25vw;
+    }
+    .badge{
+      font-size: 16px;
+      margin-right: 8px;
+      margin-bottom: 8px;
+    }
+  }
+  
+  @media (min-width: 880px) {
+    .projects .grid {
+      grid-template-columns: repeat(3, 260px);
+      align-content: center;
+      justify-content: center;
+      height: calc(100vh - 8em - 48px);
+    }
+  }

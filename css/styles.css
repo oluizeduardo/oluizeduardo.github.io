@@ -1,0 +1,217 @@
+/* CSS soft reset. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,
+  Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple 
+  Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif;
+}
+
+body {
+  background-color: rgb(96, 135, 235);
+  background-size: auto 100vh; 
+  height: 100vh;
+}
+
+.home{
+  background-image: url('../img/bg-intro.jpeg');
+  background-attachment: fixed;
+}
+
+.home .img-profile {
+  border-radius: 50%;
+  border: whitesmoke; 
+  border-style: solid;
+  height: 178px;
+  width: 178px;
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  background-color: white;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  z-index: 5;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+ list-style: none; 
+}
+
+.menu a {
+  display: block;
+  padding: 10px 20px;
+  transition: background-color 500ms, color 100ms;
+}
+
+.menu a:active,
+.menu a:hover {
+  background-color: rgb(96, 135, 235);
+  color: whitesmoke;
+}
+a {
+  color: teal;
+  text-decoration: none;/*Remove underline and all decoration.*/
+}
+
+.container-title {
+  transform: translate(0%, 0%);
+	z-index: 1;
+}
+
+.site-subtitle, 
+.site-title {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.site-subtitle {
+ font-style: italic;
+ line-height: 1.8em;
+}
+
+.about {
+  background-image: url('../img/bg-about.jpg');
+  height: 80vh;
+  background-attachment: fixed;
+}
+
+.about p {
+  color: whitesmoke;
+  text-indent: 1.5em;
+  margin-bottom: 1.4em;
+  text-align: justify;
+}
+
+.about,
+.projects,
+.contacts {
+  /* top | right | bottom | left */
+  padding: 0em 0em 0em 2em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-top: 0.5em;
+  color: whitesmoke;
+}
+
+.projects {
+  background-image: url('../img/bg-projs.jpg');
+  min-height: 100vh;
+  color: whitesmoke;
+  background-attachment: fixed;
+}
+
+.about h2,
+.projects h2,
+.contacts h2 {
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  padding: 2em 0em 0em;
+  padding-top: 2em;
+}
+
+.projects .grid {
+  display: grid;
+  gap: 3em;
+}
+
+/*Contacts section*/
+.contacts {
+  background-image: url('../img/bg-contacts.jpg');
+  height: 45vh;
+}
+
+/*Grid inside contact section.*/
+.contacts .grid-contacts{
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(5, auto);
+  align-content: center;
+  justify-content: center;
+  height: calc(45vh - 8em - 40px);
+  width: 90vw;
+}
+
+/*It changes details of the contact icons.*/
+.contacts a {
+  color: whitesmoke;
+}
+
+/*Hover on the contact icons.*/
+.contacts a:hover {
+  text-decoration: none;
+  text-shadow: 3px 3px 5px rgba(96, 135, 235, 0.8);
+}
+
+.projects figure {
+  text-align: center;
+}
+
+.img-projects {
+  height: 180px;
+  width: 240px;
+  object-fit: cover;
+  object-position: center
+}
+
+.img-projects:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1em;
+}
+
+.footer a {
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+.badge {
+  line-height: 0.8;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+
+.data-cont .badge {
+  color: whitesmoke;
+  border: 1px solid #40dbb1;
+  border-radius: 10px;
+  display: inline-flex;
+  float: left;
+}
+
+.grid-about{
+  display: grid;
+}
+
+.external-link {
+  text-decoration: underline; 
+  color: whitesmoke;
+}
+
+/* ---- particles.js container ---- */
+.particles{
+  width: 97vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
