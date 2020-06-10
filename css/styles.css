@@ -17,6 +17,7 @@ body {
 .home{
   background-image: url('../img/bg-intro.jpeg');
   background-attachment: fixed;
+  background-position: 60%;
 }
 
 .home .img-profile {
@@ -87,6 +88,7 @@ a {
   background-image: url('../img/bg-about.jpg');
   height: 80vh;
   background-attachment: fixed;
+  background-position: 50%;
 }
 
 .about p {
@@ -112,6 +114,7 @@ a {
   min-height: 100vh;
   color: whitesmoke;
   background-attachment: fixed;
+  background-position: 10%;
 }
 
 .about h2,
