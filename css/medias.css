@@ -55,6 +55,7 @@
         gap: 4em;
     }
     .particles{ height: 50vh; }
+    .menu { box-shadow: 0px 1px 5px black; }
 }
   
 @media (min-width: 700px) {
