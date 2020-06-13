@@ -23,6 +23,9 @@
     .particles{
       height: 100vh;
     }
+    .projects .container {
+      margin: auto;
+    }
 }
   
 @media (min-width: 400px) {
@@ -67,6 +70,10 @@
     body {
         font-size: 15px;
     }
+    .projects .container {
+      transform: none;
+      margin: initial;
+    }
 }
   
   /* breakpoint */
@@ -85,6 +92,9 @@
       font-size: 16px;
       margin-right: 8px;
       margin-bottom: 8px;
+    }
+    .projects .container {
+      transform: translate(3%, 10%);
     }
   }
   
