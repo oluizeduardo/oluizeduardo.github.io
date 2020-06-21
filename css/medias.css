@@ -6,6 +6,10 @@
     .site-title{
       font-size: 3em;
     }
+    .img-profile {
+      height: 148px;
+      width: 148px;
+    }
     .contacts .grid-contacts{
       gap: 2em;
     }
@@ -40,6 +44,10 @@
     }
     .site-title{
         font-size: 3.5em;
+    }
+    .img-profile {
+      height: 178px;
+      width: 178px;
     }
 }
 
