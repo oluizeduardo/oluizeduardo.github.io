@@ -27,9 +27,9 @@
     .particles{
       height: 100vh;
     }
-    .projects .container {
+    /*.projects .container {
       margin: auto;
-    }
+    }*/
 }
   
 @media (min-width: 400px) {
@@ -59,9 +59,9 @@
     .footer{
         font-size: 15px;
     }
-    .projects .grid {
+    /*.projects .grid {
         grid-template-columns: 240px 240px;
-    }
+    }*/
     .contacts .grid-contacts{
         gap: 4em;
     }
@@ -78,10 +78,10 @@
     body {
         font-size: 15px;
     }
-    .projects .container {
+    /*.projects .container {
       transform: none;
       margin: initial;
-    }
+    }*/
 }
   
   /* breakpoint */
@@ -101,16 +101,16 @@
       margin-right: 8px;
       margin-bottom: 8px;
     }
-    .projects .container {
+    /*.projects .container {
       transform: translate(3%, 10%);
-    }
+    }*/
   }
   
   @media (min-width: 880px) {
-    .projects .grid {
+   /* .projects .grid {
       grid-template-columns: repeat(3, 260px);
       align-content: center;
       justify-content: center;
       height: calc(100vh - 8em - 48px);
-    }
+    }*/
   }
